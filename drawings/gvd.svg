@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="gvd.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="2.1266375"
+     inkscape:cx="250.39528"
+     inkscape:cy="321.86962"
+     inkscape:window-width="1294"
+     inkscape:window-height="704"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558"
+       width="59.461868"
+       height="59.461868"
+       x="26.455898"
+       y="53.91906"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.542999"
+       id="rect1967"
+       width="6.614583"
+       height="15.875"
+       x="31.750002"
+       y="59.53125"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <rect
+       style="fill:#000000;stroke:#000000;stroke-width:0.542999"
+       id="rect2771"
+       width="27.78125"
+       height="7.9375"
+       x="31.75"
+       y="100.54166"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 31.75,95.249999 V 80.697916 l 17.197916,3.96875 v 6.614583 z"
+       id="path2806"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 43.656249,75.406249 10.583334,5.291667 10.583333,-19.84375 -14.552083,-1.322917 -6.614584,15.875"
+       id="path3034"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 51.858332,95.249999 76.993748,60.854166 h 3.96875 l -3.96875,30.427083 z"
+       id="path3736"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 66.145832,104.51042 14.552084,3.96875 -3.96875,-11.906255 -10.583334,7.937505"
+       id="path3804"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
