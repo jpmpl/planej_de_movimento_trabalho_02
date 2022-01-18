@@ -53,6 +53,12 @@ class vertice:
     def is_in_vertice(self, p):
         ep = 2*0.5
         return np.linalg.norm(self.center-p) <= ep
+    
+    def find_destination_dir(self, vertice_idx):
+        for i in range(0,len(self.directions)):
+            if self.directions[i][1] == vertice_idx:
+                return i,self.directions[i][0]
+        raise
 
 def odometry_callback_robot(data):
     global q0, theta, k, d
@@ -117,7 +123,7 @@ def get_candidates(lrange, local_mins, q0):
             raise
     return cand_list
 
-def choose_path(lrange,local_mins, history, q0, vertice_list, last_ver_idx, last_sel_dir_index, is_extreme_vertice):
+def choose_path(lrange,local_mins, history, q0, vertice_list, search_stack, last_ver_idx, last_sel_dir_index, is_extreme_vertice):
     cur_ver_idx = None
 
     for i in range(0,len(vertice_list)): # check if vertice already exists
@@ -139,67 +145,48 @@ def choose_path(lrange,local_mins, history, q0, vertice_list, last_ver_idx, last
         vertice_list.append(vertice(q0,directions))
         cur_ver_idx = len(vertice_list)-1
 
+    assert cur_ver_idx is not None
+
+    search_stack.append(cur_ver_idx)
+
     unex_dirs = vertice_list[cur_ver_idx].unexplored_directions()
     if is_extreme_vertice:
         assert len(unex_dirs) == 1
     if not history[history.isD1==False].empty:
         last_reg = history[history.isD1==False].iloc[-1]
     else:
-        last_reg = history.iloc[-1]        
+        last_reg = history.iloc[-1]
     for unex_dir in unex_dirs:
         cand = unex_dir[1]
         criteria = 0.5
         l = np.array([last_reg.v_x,last_reg.v_y])
         if last_ver_idx is not None and np.linalg.norm(-cand-l) < criteria:
-            vertice_list[cur_ver_idx].update_connected_vertice(unex_dir[0],vertice_list[last_ver_idx])
-            vertice_list[last_ver_idx].update_connected_vertice(last_sel_dir_index, vertice_list[cur_ver_idx])
+            vertice_list[cur_ver_idx].update_connected_vertice(unex_dir[0],last_ver_idx)
+            vertice_list[last_ver_idx].update_connected_vertice(last_sel_dir_index,cur_ver_idx)
             break
     
     if is_extreme_vertice:
         last_ver_idx = cur_ver_idx
-        last_sel_dir_index = 0
-        return vertice_list[cur_ver_idx].directions[0][0], True, False, vertice_list, last_ver_idx, last_sel_dir_index,last_reg, 'vertice_decision'
+        search_stack.pop()
+        dest_ver_idx = search_stack.pop()
+        last_sel_dir_index, dir = vertice_list[cur_ver_idx].find_destination_dir(dest_ver_idx)
+        return dir, True, False, vertice_list,\
+            search_stack, last_ver_idx, last_sel_dir_index,last_reg, 'vertice_decision'
     else:
         cur_unex_dirs = vertice_list[cur_ver_idx].unexplored_directions()
         if len(cur_unex_dirs) > 0:
             last_ver_idx = cur_ver_idx
             last_sel_dir_index = cur_unex_dirs[0][0]
-            return cur_unex_dirs[0][1], True, False, vertice_list, last_ver_idx, last_sel_dir_index, last_reg, 'vertice_decision'
+            return cur_unex_dirs[0][1], True, False, vertice_list, search_stack, last_ver_idx, last_sel_dir_index, last_reg, 'vertice_decision'
         else:
-            raise
+            last_ver_idx = cur_ver_idx
+            search_stack.pop()
+            dest_ver_idx = search_stack.pop()
+            last_sel_dir_index, dir = vertice_list[cur_ver_idx].find_destination_dir(dest_ver_idx)
+            return dir, True, False, vertice_list,\
+                 search_stack, last_ver_idx, last_sel_dir_index, last_reg, 'vertice_decision'
 
-
-    # last_20 = history.iloc[-40:]
-    # if any(last_20.isVertice):
-    #     return np.array([last_20[last_20.isVertice == True].iloc[0].v_x,\
-    #         last_20[last_20.isVertice == True].iloc[0].v_y]), False, False
-    
-    # if not prev_choices.empty:
-    #     angle_range = 2*np.pi/180
-    #     for i in range(0,len(local_mins)):
-    #         mi_i = theta+angle_min+local_mins[i]*angle_increment-pi
-    #         di_i = np.array([cos(mi_i), sin(mi_i)])            
-    #         for j in range(1,len(local_mins)):
-    #             mi_j = theta+angle_min+local_mins[j]*angle_increment-pi
-    #             di_j = np.array([cos(mi_j), sin(mi_j)])
-    #             nil_space = null_space(np.matrix(di_i-di_j))
-    #             cand1 = nil_space[:,0]
-    #             cand2 = -nil_space[:,0]
-    #             delta_angle_c1 = abs(prev_choices.v_angle - np.arctan2(cand1[1],cand1[0]))
-    #             delta_angle_c2 = abs(prev_choices.v_angle - np.arctan2(cand2[1],cand2[0]))
-    #             if not history[history.isD1==False].empty:
-    #                 last_reg = history[history.isD1==False].iloc[-1]
-    #             else:
-    #                 last_reg = history.iloc[-1]
-    #             if not (any(delta_angle_c1 < angle_range) or any(delta_angle_c2 < angle_range)):
-    #                 if abs(np.arctan2(cand1[1],cand1[0]) - np.arctan2(last_reg.v_y,last_reg.v_x)) < \
-    #                     abs(np.arctan2(cand2[1],cand2[0]) - np.arctan2(last_reg.v_y,last_reg.v_x)):
-    #                     return cand1, True, False
-    #                 else:
-    #                     return cand2, True, False
-
-
-def get_velocity_direction1(lrange, history, q0, vertice_list, last_ver_idx, last_sel_dir_index):
+def get_velocity_direction(lrange, history, q0, vertice_list, search_stack, last_ver_idx, last_sel_dir_index):
     ep = 0.05
 
     if not history[history.isD1==False].empty:
@@ -210,7 +197,7 @@ def get_velocity_direction1(lrange, history, q0, vertice_list, last_ver_idx, las
     if len(vertice_list) > 0:
         if vertice_list[last_ver_idx].is_in_vertice(q0):
             return vertice_list[last_ver_idx].directions[last_sel_dir_index][0], True, False,\
-                vertice_list, last_ver_idx, last_sel_dir_index, last_reg, 'in_vertice'
+                vertice_list, search_stack, last_ver_idx, last_sel_dir_index, last_reg, 'in_vertice'
     
     ex_lrange = np.hstack((lrange,lrange))
     lrange_local_mins = find_peaks(-ex_lrange, distance=20, prominence=0.5) # prominence=0.2 ?
@@ -230,7 +217,7 @@ def get_velocity_direction1(lrange, history, q0, vertice_list, last_ver_idx, las
     multiple_min = [ i for i in unique_lmin if abs(ex_lrange[i]-ex_lrange[unique_lmin[0]]) < ep]
     if len(multiple_min) > 2:
         return choose_path(ex_lrange,multiple_min, history, q0,\
-            vertice_list, last_ver_idx, last_sel_dir_index, False)
+            vertice_list, search_stack, last_ver_idx, last_sel_dir_index, False)
 
     if len(unique_lmin) > 0:
         min_fst = unique_lmin[0]
@@ -246,42 +233,13 @@ def get_velocity_direction1(lrange, history, q0, vertice_list, last_ver_idx, las
                 if ex_lrange[min_fst] > 1.5 and ex_lrange[min_snd] > 1.5:
                     l = np.array([last_reg.v_x,last_reg.v_y])
                     if np.linalg.norm(cand1 - l) < np.linalg.norm(cand2 - l):
-                        return cand1, False, False, vertice_list, last_ver_idx, last_sel_dir_index,last_reg, 'tangent_decision'
+                        return cand1, False, False, vertice_list, search_stack, last_ver_idx, last_sel_dir_index,last_reg, 'tangent_decision'
                     else:
-                        return cand2, False, False, vertice_list, last_ver_idx, last_sel_dir_index,last_reg, 'tangent_decision'
+                        return cand2, False, False, vertice_list, search_stack, last_ver_idx, last_sel_dir_index,last_reg, 'tangent_decision'
                 else:
                     return choose_path(ex_lrange,multiple_min, history, q0,\
-                        vertice_list, last_ver_idx, last_sel_dir_index, True)
-        return di_fst, False, True, vertice_list, last_ver_idx, last_sel_dir_index, last_reg, 'closest'
-
-    
-# def get_velocity_direction2(lrange, history, q0):
-#     global tangent_move
-#     ep = 0.05
-    
-#     local_mins = findpeaks(method='peakdetect')
-#     results=local_mins.fit(lrange)
-#     df = results['df']
-#     if df.loc[0].valley and df.loc[len(lrange)-1].valley:
-#         df.drop(len(lrange)-1)
-    
-#     lrange_local_mins = df[df.valley == True].sort_values(by=["y"])
-#     local_min_index = lrange_local_mins.index.values
-#     #local_mins.plot()    
-
-#     if len(lrange_local_mins) > 0:
-#         min_fst = lrange_local_mins.loc[local_min_index[0]]
-#         mi_fst = theta+angle_min+min_fst.x*angle_increment-pi
-#         di_fst = np.array([cos(mi_fst), sin(mi_fst)])
-#         if len(lrange_local_mins) > 1:
-#             min_snd = lrange_local_mins.loc[local_min_index[1]]
-#             if abs(min_fst.y-min_snd.y) < ep:
-#                 mi_snd = theta+angle_min+min_snd.x*angle_increment-pi
-#                 di_snd = np.array([cos(mi_snd), sin(mi_snd)])
-#                 nil_space = null_space(np.matrix(di_fst-di_snd))
-#                 tangent_move = True
-#                 return nil_space[:,0]
-#         return di_fst
+                        vertice_list, search_stack, last_ver_idx, last_sel_dir_index, True)
+        return di_fst, False, True, vertice_list, search_stack, last_ver_idx, last_sel_dir_index, last_reg, 'closest'
 
 def init():
     global tangent_move, lrange
@@ -303,18 +261,15 @@ def init():
     ep = 0.005
     alp = 0.2
     vertice_list = []
+    search_stack = []
     last_ver_idx = None
     last_sel_dir_index = None
-    did_not_leave_vertice = False
     while not rospy.is_shutdown():
         if lrange is not None:
 
             tangent_move = False
-            V_dir,isVertice,isD1,vertice_list,last_ver_idx,last_sel_dir_index,last_regis,decision\
-                = get_velocity_direction1(lrange, df, q0, vertice_list, last_ver_idx, last_sel_dir_index)
-            #if tangent_move:
-            #    V = 2*alp*V_dir
-            #else:
+            V_dir,isVertice,isD1,vertice_list, search_stack,last_ver_idx,last_sel_dir_index,last_regis,decision\
+                = get_velocity_direction(lrange, df, q0, vertice_list, search_stack, last_ver_idx, last_sel_dir_index)
             V = alp*V_dir
             print("v_x: {} v_y: {} | lv_x: {} lv_y: {} | Decision: {}".format(V_dir[0],V_dir[1],last_regis.v_x,last_regis.v_y, decision))
             
