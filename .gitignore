@@ -2,3 +2,4 @@
 catkin_ws/.catkin_workspace
 catkin_ws/build/
 catkin_ws/devel/
+*.jpg
