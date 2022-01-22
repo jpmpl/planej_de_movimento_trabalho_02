@@ -243,7 +243,7 @@ def get_velocity_direction(lrange, history, q0, vertice_list, search_stack, last
 
 def init():
     global tangent_move, lrange
-    rospy.init_node('a_star', anonymous=True)
+    rospy.init_node('gvd', anonymous=True)
     pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
     rospy.Subscriber('/odom', Odometry, odometry_callback_robot)
     rospy.Subscriber('/base_scan', LaserScan, range_callback_robot)

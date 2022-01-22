@@ -28,7 +28,6 @@ q0 = None
 qf = None
 theta = None
 lrange = None
-k = 10
 d = 0.5
 
 class Cell:
@@ -63,7 +62,7 @@ class Prioritize:
         return self.priority < other.priority
 
 def odometry_callback_robot(data):
-    global q0, theta, k, d
+    global q0, theta, d
     orient = data.pose.pose.orientation
     (roll, pitch, theta) = euler_from_quaternion([orient.x, orient.y, orient.z, orient.w])
     x0 = data.pose.pose.position.x + d * cos(theta)
