@@ -1,0 +1,75 @@
+
+def get_cells(wrd,img_v):
+    cells = dict()
+
+    wrd_v0 = wrd.transform_img_to_wrd(img_v[0])
+    d,u = get_intersections(wrd,img_v[0])
+    d0 = wrd.transform_img_to_wrd(d)
+    u0 = wrd.transform_img_to_wrd(u)
+    c1_trap = [[-30,-30],[-30,30],u0,d0]
+    c1_edges = dict()
+    c1_edges[2] = [wrd_v0[0],[wrd_v0[0][0],30]]
+    c1_edges[3] = [wrd_v0[0],[wrd_v0[0][0],-30]]
+    cells[1] = Cell(c1_trap,c1_edges)
+
+    wrd_v1 = wrd.transform_img_to_wrd(img_v[1])
+    d,u = get_intersections(wrd,img_v[1])
+    d1 = wrd.transform_img_to_wrd(d)
+    u1 = wrd.transform_img_to_wrd(u)
+    c2_trap = [wrd_v0[0],[wrd_v0[0][0],30],u1,d1]
+    c2_edges = dict()
+    c2_edges[4] = [wrd_v1,u1]
+    c2_edges[5] = [wrd_v1,d1]
+    cells[2] = Cell(c2_trap,c2_edges)
+
+    wrd_v2 = wrd.transform_img_to_wrd(img_v[2])
+    d,u = get_intersections(wrd,img_v[2])
+    d2 = wrd.transform_img_to_wrd(d)
+    u2 = wrd.transform_img_to_wrd(u)
+    c5_trap = [d1,wrd_v1,u2,wrd_v2]
+    c5_edges = dict()
+    c5_edges[6] = [wrd_v2,u2]
+    cells[5] = Cell(c5_trap,c5_edges)
+
+    wrd_v3 = wrd.transform_img_to_wrd(img_v[3])
+    d,u = get_intersections(wrd,img_v[3])
+    d3 = wrd.transform_img_to_wrd(d)
+    u3 = wrd.transform_img_to_wrd(u)
+    c3_trap = [d0,wrd_v0,wrd_v3,d3]
+    c3_edges = dict()
+    c3_edges[7] = [wrd_v3,d3]
+    cells[3] = Cell(c3_trap,c3_edges)
+    c6_trap = [wrd_v2,u2,u3,wrd_v3]
+    c6_edges = dict()
+    c6_edges[7] = [wrd_v3,u3]
+    cells[6] = Cell(c6_trap,c6_edges)
+
+    wrd_v4 = wrd.transform_img_to_wrd(img_v[4])
+    d,u = get_intersections(wrd,img_v[4])
+    d4 = wrd.transform_img_to_wrd(d)
+    u4 = wrd.transform_img_to_wrd(u)
+    c7_trap = [d3,u3,u4,d4]
+    c7_edges = dict()
+    c7_edges[8] = [wrd_v4,u4]
+    c7_edges[9] = [wrd_v4,d4]
+    cells[7] = Cell(c7_trap,c7_edges)
+    
+    wrd_v5 = wrd.transform_img_to_wrd(img_v[5])
+    d,u = get_intersections(wrd,img_v[5])
+    d5 = wrd.transform_img_to_wrd(d)
+    u5 = wrd.transform_img_to_wrd(u)
+    c9_trap = [d4,wrd_v4,wrd_v5,d5]
+    c9_edges = dict()
+    c9_edges[10] = [wrd_v5,d5]
+    cells[9] = Cell(c9_trap,c9_edges)
+
+    wrd_v6 = wrd.transform_img_to_wrd(img_v[6])
+    d,u = get_intersections(wrd,img_v[6])
+    d6 = wrd.transform_img_to_wrd(d)
+    u6 = wrd.transform_img_to_wrd(u)
+    c8_trap = [wrd_v4,u4,u6,wrd_v6]
+    c8_edges = dict()
+    c8_edges[11] = [wrd_v6,u6]
+    cells[8] = Cell(c8_trap,c8_edges)
+
+    wrd_v7 = wrd.transform_img_to_wrd(img_v[7])

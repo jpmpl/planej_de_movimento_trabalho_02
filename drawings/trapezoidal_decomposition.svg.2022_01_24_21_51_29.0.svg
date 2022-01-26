@@ -1,0 +1,1697 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="trapezoidal_decomposition.svg.2022_01_24_21_51_29.0.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="500.98516"
+     inkscape:cy="973.33249"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2"
+     showguides="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558"
+       width="59.462002"
+       height="59.461868"
+       x="26.471632"
+       y="53.888893"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 32.014582,66.145832 10.583333,-7.937499 6.614584,17.197916 z"
+       id="path2298"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 45.243749,108.47917 2.645833,-5.29167 h 7.9375 l 5.291667,-11.906251 h 6.614583 l -2.645834,13.229171 -7.937499,3.96875 z"
+       id="path2304"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 71.702082,108.47917 9.260416,-5.29167 -5.291666,-43.656251 -13.229167,3.96875 13.229167,25.135417 z"
+       id="path2306"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000007;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 51.858332,80.697916 3.968751,-19.843749 10.583332,18.520832 -7.9375,7.9375 z"
+       id="path2308"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 37.041667,79.375 41.010416,76.729166 54.239583,88.635416 39.6875,95.249999 Z"
+       id="path5153"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000005;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 30.427083,95.249999 2.645833,-2.645833 2.645834,14.552084 z"
+       id="path5752"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.41111px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="12.031895"
+       y="69.388062"
+       id="text6328"><tspan
+         sodipodi:role="line"
+         id="tspan6326"
+         style="font-size:1.41111px;stroke-width:0.264583"
+         x="12.031895"
+         y="69.388062" /></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558-7"
+       width="59.462002"
+       height="59.461868"
+       x="105.45213"
+       y="53.944466"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="134.99274"
+       y="91.646545"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-85"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="134.99274"
+         y="91.646545"
+         id="tspan74546-9-2-9-3-19-7-7">c20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="130.9709"
+       y="84.893448"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-85-5"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="130.9709"
+         y="84.893448"
+         id="tspan74546-9-2-9-3-19-7-7-0">c33</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="139.2937"
+       y="110.5425"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="139.2937"
+         y="110.5425"
+         id="tspan74546-9-2-9-3-19-7-4-1">c21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="137.7883"
+       y="89.756371"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="137.7883"
+         y="89.756371"
+         id="tspan103144-5">c22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="131.48094"
+       y="59.981789"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="131.48094"
+         y="59.981789"
+         id="tspan74546-9-2-9-3-7">c17</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="-83.904327"
+       y="140.4369"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-6-5"
+       transform="rotate(-86.05142)"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="-83.904327"
+         y="140.4369"
+         id="tspan74546-9-2-9-3-1-3">c18</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="128.54723"
+       y="69.329247"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="128.54723"
+         y="69.329247"
+         id="tspan74546-9-2-9-8">c16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="129.05269"
+       y="97.180855"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="129.05269"
+         y="97.180855"
+         id="tspan74546-9-2-1">c15</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 110.99508,66.201404 10.58333,-7.937499 6.61459,17.197916 z"
+       id="path2298-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 124.22425,108.53474 2.64583,-5.29167 h 7.9375 l 5.29167,-11.906249 h 6.61458 l -2.64584,13.229169 -7.93749,3.96875 z"
+       id="path2304-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 150.68258,108.53474 9.26041,-5.29167 -5.29166,-43.656249 -13.22917,3.96875 13.22917,25.135417 z"
+       id="path2306-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000007;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 130.83883,80.753488 3.96875,-19.843749 10.58333,18.520832 -7.9375,7.9375 z"
+       id="path2308-4"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000002;fill-opacity:1;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 109.40758,95.305571 v -41.275"
+       id="path3620-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 109.40758,95.305571 V 113.29724"
+       id="path3655-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 116.02216,79.430572 3.96875,-2.645834 13.22917,11.90625 -14.55208,6.614583 z"
+       id="path5153-3"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 110.7305,66.201404 V 54.030571"
+       id="path5555-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 110.7305,66.201404 v 27.78125"
+       id="path5557-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000005;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 109.40758,95.305571 2.64583,-2.645833 2.64584,14.552082 z"
+       id="path5752-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 114.69925,107.21182 v 6.08542"
+       id="path5820-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 114.69925,107.21182 V 67.524321"
+       id="path5935-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 112.05341,92.659738 V 66.201404"
+       id="path6122-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.101806;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 121.64428,58.200621 -0.01,-4.087791"
+       id="path6124-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 116.02216,67.524321 v 11.90625 33.866669"
+       id="path6239-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 119.99091,76.784738 V 70.170154"
+       id="path6241-7"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 118.57293,95.410592 0.0254,17.954808"
+       id="path892-7"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.01221,108.66407 0.004,4.63638"
+       id="path894-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 124.01221,108.66407 -0.01,-15.790639"
+       id="path896-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 126.87008,103.24307 0.005,-11.856156"
+       id="path924-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 133.22138,103.58561 -0.001,-14.894622 -0.0161,-6.186082"
+       id="path926-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128.39707,54.11337 0.0319,21.601424 -0.011,8.803617"
+       id="path928-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 130.68245,53.959973 0.028,26.833752 -0.0143,5.936462"
+       id="path930-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 136.16239,108.62412 -10e-4,4.6641"
+       id="path932-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 134.7233,103.14366 0.004,-19.048085"
+       id="path881-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 137.45341,87.368071 -0.003,10.818246"
+       id="path883-5"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 134.74848,60.649057 -0.004,-6.469015"
+       id="path885-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 140.01826,91.261145 -0.005,-6.504443"
+       id="path887-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 144.17441,104.59369 -0.002,8.65014"
+       id="path889-5"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 141.24767,54.13441 0.001,9.346702 -0.0157,9.08703"
+       id="path891-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 145.54782,71.17256 0.004,8.281125 -0.008,12.016799"
+       id="path931-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 150.50217,113.27493 -5.3e-4,-4.49192 -7.8e-4,-29.191789"
+       id="path971-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 154.75985,59.426174 -5.3e-4,-5.217525"
+       id="path1012-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 160.0741,113.28215 -0.004,-9.97618 0.004,-49.303091"
+       id="path1014-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="106.71233"
+       y="83.164825"
+       id="text14565-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan14563-4"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="106.71233"
+         y="83.164825">c1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="104.43161"
+       y="246.70535"
+       id="text14565-2-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan14563-4-6"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="104.43161"
+         y="246.70535">c1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="109.72328"
+       y="238.50328"
+       id="text14565-2-7"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan14563-4-5"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="109.72328"
+         y="238.50328">c1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="109.47028"
+       y="73.651199"
+       id="text14565-7-7"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan14563-5-7"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="109.47028"
+         y="73.651199">c2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="111.19446"
+       y="107.8065"
+       id="text14565-7-6-5"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="111.19446"
+         y="107.8065"
+         id="tspan21444-4">c3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="114.47184"
+       y="57.976204"
+       id="text14565-7-6-9-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="114.47184"
+         y="57.976204"
+         id="tspan21444-1-1">c4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="110.75954"
+       y="80.17041"
+       id="text14565-7-6-9-2-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="110.75954"
+         y="80.17041"
+         id="tspan21444-1-7-8">c5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="112.76351"
+       y="81.02684"
+       id="text14565-7-6-9-2-0-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="112.76351"
+         y="81.02684"
+         id="tspan21444-1-7-9-3">c6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="114.72824"
+       y="89.951752"
+       id="text14565-7-6-9-2-0-3-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="114.72824"
+         y="89.951752"
+         id="tspan21444-1-7-9-6-8">c7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="117.40774"
+       y="74.029167"
+       id="text14565-7-6-9-2-0-3-0-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="117.40774"
+         y="74.029167"
+         id="tspan21444-1-7-9-6-6-2">c8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="116.52091"
+       y="102.02193"
+       id="text14565-7-6-9-2-0-3-0-2-10"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="116.52091"
+         y="102.02193"
+         id="tspan21444-1-7-9-6-6-6-5">c9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="120.4284"
+       y="102.72351"
+       id="text14565-7-6-9-2-0-3-0-2-1-1"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="120.4284"
+         y="102.72351"
+         id="tspan21444-1-7-9-6-6-6-8-1">c10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="122.77193"
+       y="76.835663"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="122.77193"
+         y="76.835663"
+         id="tspan21444-1-7-9-6-6-6-8-9-8">c11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="124.4762"
+       y="98.991364"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-50"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="124.4762"
+         y="98.991364"
+         id="tspan74546-6">c13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="129.08168"
+       y="111.14593"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="129.08168"
+         y="111.14593"
+         id="tspan74546-9-6">c14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="124.57479"
+       y="61.050018"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-2-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="124.57479"
+         y="61.050018"
+         id="tspan72253-5">c12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="136.87163"
+       y="61.144115"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="136.87163"
+         y="61.144115"
+         id="tspan74546-9-2-9-3-19-6">c19</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="145.11128"
+       y="58.438305"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="145.11128"
+         y="58.438305"
+         id="tspan103144-6-8">c23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="144.63297"
+       y="105.39756"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-47"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="144.63297"
+         y="105.39756"
+         id="tspan103144-6-5-2">c26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="147.5238"
+       y="96.043129"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-7-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="147.5238"
+         y="96.043129"
+         id="tspan103144-6-5-6-0">c28</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="141.92018"
+       y="87.062874"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-6-6"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="141.92018"
+         y="87.062874"
+         id="tspan103144-6-3-2">c25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="141.92018"
+       y="71.160339"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-1-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="141.92018"
+         y="71.160339"
+         id="tspan103144-6-0-9">c24</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 146.8553,73.183044 0.0113,18.032672 -0.0112,22.197554"
+       id="path112841-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="-85.025085"
+       y="145.24997"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-5-8"
+       transform="rotate(-90.949536)"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="-85.025085"
+         y="145.24997"
+         id="tspan103144-6-4-1">c27</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="151.26558"
+       y="90.149834"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-5-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="151.26558"
+         y="90.149834"
+         id="tspan103144-6-5-69-1">c29</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="156.31697"
+       y="67.512108"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-3-1"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="156.31697"
+         y="67.512108"
+         id="tspan103144-6-5-7-0">c30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="154.16545"
+       y="110.16831"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-4-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="154.16545"
+         y="110.16831"
+         id="tspan103144-6-5-5-4">c31</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="160.99419"
+       y="82.66629"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-2-0"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/drawings/trap_decomp_cells.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="160.99419"
+         y="82.66629"
+         id="tspan126558-3">c32</tspan></text>
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558-7-4"
+       width="59.462002"
+       height="59.461868"
+       x="35.221519"
+       y="217.41341"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558-7-3"
+       width="59.462002"
+       height="59.461868"
+       x="30.894445"
+       y="121.25858"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/generalized_voronoi_diagram/worlds/gvd_world.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="60.435047"
+       y="158.96066"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-85-6"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="60.435047"
+         y="158.96066"
+         id="tspan74546-9-2-9-3-19-7-7-7">c20</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="64.736015"
+       y="177.85661"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-4-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="64.736015"
+         y="177.85661"
+         id="tspan74546-9-2-9-3-19-7-4-1-3">c21</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="63.23061"
+       y="157.07048"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-8-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="63.23061"
+         y="157.07048"
+         id="tspan103144-5-6">c22</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="56.923252"
+       y="127.2959"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-9-2"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="56.923252"
+         y="127.2959"
+         id="tspan74546-9-2-9-3-7-9">c17</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="-156.19278"
+       y="70.691528"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-6-5-1"
+       transform="rotate(-86.05142)"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="-156.19278"
+         y="70.691528"
+         id="tspan74546-9-2-9-3-1-3-2">c18</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="53.989536"
+       y="136.64336"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-8-7"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="53.989536"
+         y="136.64336"
+         id="tspan74546-9-2-9-8-0">c16</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="54.494999"
+       y="164.49496"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-3-9"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="54.494999"
+         y="164.49496"
+         id="tspan74546-9-2-1-3">c15</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 36.437392,133.51551 10.58333,-7.93749 6.61459,17.19791 z"
+       id="path2298-8-6" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 49.666562,175.84885 2.64583,-5.29167 h 7.9375 l 5.29167,-11.90625 h 6.61458 l -2.64584,13.22917 -7.93749,3.96875 z"
+       id="path2304-9-0" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 76.124892,175.84885 9.26041,-5.29167 -5.29166,-43.65625 -13.22917,3.96875 13.22917,25.13542 z"
+       id="path2306-6-6" />
+    <path
+       style="fill:#000007;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 56.281142,148.0676 3.96875,-19.84375 10.58333,18.52083 -7.9375,7.9375 z"
+       id="path2308-4-2"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#000002;fill-opacity:1;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.849892,162.61968 v -41.275"
+       id="path3620-3-6" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 34.849892,162.61968 v 17.99167"
+       id="path3655-3-1" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 41.464472,146.74468 3.96875,-2.64583 13.22917,11.90625 -14.55208,6.61458 z"
+       id="path5153-3-8"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 36.172812,133.51551 V 121.34468"
+       id="path5555-8-7" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 36.172812,133.51551 v 27.78125"
+       id="path5557-6-9" />
+    <path
+       style="fill:#000005;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 34.849892,162.61968 2.64583,-2.64583 2.64584,14.55208 z"
+       id="path5752-0-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 40.141562,174.52593 v 6.08542"
+       id="path5820-4-0" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 40.141562,174.52593 v -39.6875"
+       id="path5935-8-2" />
+    <path
+       style="fill:none;stroke:#000003;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 37.495722,159.97385 V 133.51551"
+       id="path6122-8-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.101806;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.086592,125.51473 -0.01,-4.08779"
+       id="path6124-8-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 41.464472,134.83843 v 11.90625 33.86667"
+       id="path6239-9-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 45.433222,144.09885 v -6.61459"
+       id="path6241-7-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.015242,162.7247 0.0254,17.95481"
+       id="path892-7-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 49.454522,175.97818 0.004,4.63638"
+       id="path894-6-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 49.454522,175.97818 -0.01,-15.79064"
+       id="path896-4-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 52.312392,170.55718 0.005,-11.85615"
+       id="path924-3-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.663692,170.89972 -10e-4,-14.89462 -0.0161,-6.18608"
+       id="path926-0-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 53.839382,121.42748 0.0319,21.60142 -0.011,8.80362"
+       id="path928-3-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 56.124762,121.27408 0.028,26.83376 -0.0143,5.93646"
+       id="path930-0-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 61.604702,175.93823 -0.001,4.6641"
+       id="path932-9-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.165612,170.45777 0.004,-19.04808"
+       id="path881-2-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.895722,154.68218 -0.003,10.81825"
+       id="path883-5-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 60.190792,127.96317 -0.004,-6.46902"
+       id="path885-4-3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 65.460572,158.57526 -0.005,-6.50445"
+       id="path887-0-1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 69.616722,171.9078 -0.002,8.65014"
+       id="path889-5-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 66.689982,121.44852 0.001,9.3467 -0.0157,9.08703"
+       id="path891-9-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 70.990132,138.48667 0.004,8.28113 -0.008,12.0168"
+       id="path931-4-7" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 75.944482,180.58904 -5.3e-4,-4.49192 -7.8e-4,-29.19179"
+       id="path971-6-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 80.202162,126.74029 -5.3e-4,-5.21753"
+       id="path1012-9-4" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 85.516412,180.59626 -0.004,-9.97618 0.004,-49.30309"
+       id="path1014-2-5" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="32.154644"
+       y="150.47894"
+       id="text14565-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan14563-4-3"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="32.154644"
+         y="150.47894">c1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="34.912594"
+       y="140.96532"
+       id="text14565-7-7-6"><tspan
+         sodipodi:role="line"
+         id="tspan14563-5-7-1"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="34.912594"
+         y="140.96532">c2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="36.636768"
+       y="175.12062"
+       id="text14565-7-6-5-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="36.636768"
+         y="175.12062"
+         id="tspan21444-4-6">c3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="39.91415"
+       y="125.29031"
+       id="text14565-7-6-9-8-3"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="39.91415"
+         y="125.29031"
+         id="tspan21444-1-1-2">c4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="36.201847"
+       y="147.48453"
+       id="text14565-7-6-9-2-2-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="36.201847"
+         y="147.48453"
+         id="tspan21444-1-7-8-6">c5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="38.205822"
+       y="148.34096"
+       id="text14565-7-6-9-2-0-9-1"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="38.205822"
+         y="148.34096"
+         id="tspan21444-1-7-9-3-5">c6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="40.170551"
+       y="157.26587"
+       id="text14565-7-6-9-2-0-3-6-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="40.170551"
+         y="157.26587"
+         id="tspan21444-1-7-9-6-8-4">c7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="42.850048"
+       y="141.34328"
+       id="text14565-7-6-9-2-0-3-0-0-7"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="42.850048"
+         y="141.34328"
+         id="tspan21444-1-7-9-6-6-2-6">c8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="41.963223"
+       y="169.33604"
+       id="text14565-7-6-9-2-0-3-0-2-10-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="41.963223"
+         y="169.33604"
+         id="tspan21444-1-7-9-6-6-6-5-6">c9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="45.870708"
+       y="170.03763"
+       id="text14565-7-6-9-2-0-3-0-2-1-1-9"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="45.870708"
+         y="170.03763"
+         id="tspan21444-1-7-9-6-6-6-8-1-3">c10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="48.214237"
+       y="144.14978"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-0-7"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="48.214237"
+         y="144.14978"
+         id="tspan21444-1-7-9-6-6-6-8-9-8-4">c11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="49.918507"
+       y="166.30548"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-50-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="49.918507"
+         y="166.30548"
+         id="tspan74546-6-2">c13</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="54.523991"
+       y="178.46004"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-4-5"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="54.523991"
+         y="178.46004"
+         id="tspan74546-9-6-4">c14</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="50.017101"
+       y="128.36414"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-2-2-7"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="50.017101"
+         y="128.36414"
+         id="tspan72253-5-4">c12</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="62.313938"
+       y="128.45822"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-8-4"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="62.313938"
+         y="128.45822"
+         id="tspan74546-9-2-9-3-19-6-3">c19</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="70.553596"
+       y="125.75242"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-2-0"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="70.553596"
+         y="125.75242"
+         id="tspan103144-6-8-7">c23</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="70.075279"
+       y="172.71167"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-47-8"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="70.075279"
+         y="172.71167"
+         id="tspan103144-6-5-2-6">c26</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="72.966118"
+       y="163.35724"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-7-4-8"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="72.966118"
+         y="163.35724"
+         id="tspan103144-6-5-6-0-8">c28</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="67.362495"
+       y="154.37698"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-6-6-4"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="67.362495"
+         y="154.37698"
+         id="tspan103144-6-3-2-3">c25</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="67.362495"
+       y="138.47446"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-1-9-1"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="67.362495"
+         y="138.47446"
+         id="tspan103144-6-0-9-4">c24</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 72.297612,140.49715 0.0113,18.03268 -0.0112,22.19755"
+       id="path112841-0-9" />
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="-151.09441"
+       y="69.587006"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-5-8-2"
+       transform="rotate(-90.949536)"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="-151.09441"
+         y="69.587006"
+         id="tspan103144-6-4-1-0">c27</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="76.707893"
+       y="157.46394"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-5-3-6"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="76.707893"
+         y="157.46394"
+         id="tspan103144-6-5-69-1-8">c29</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="81.759285"
+       y="134.82622"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-3-1-9"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="81.759285"
+         y="134.82622"
+         id="tspan103144-6-5-7-0-2">c30</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="79.607765"
+       y="177.48242"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-4-3-6"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="79.607765"
+         y="177.48242"
+         id="tspan103144-6-5-5-4-6">c31</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:1.05833px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="86.436501"
+       y="149.98041"
+       id="text14565-7-6-9-2-0-3-0-2-1-7-23-5-2-8-7-3-4-8-5-3-61-2-0-4"><tspan
+         sodipodi:role="line"
+         style="font-size:1.05833px;stroke-width:0.264583"
+         x="86.436501"
+         y="149.98041"
+         id="tspan126558-3-9">c32</tspan></text>
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="M 117.82254,570.66902 V 459.57299 h 6.72674 6.72674 l -0.003,111.09603 -0.003,111.09602 h -6.72376 -6.72377 z m 7.93971,-3.36326 c -0.31594,-2.04741 -0.35787,-2.08889 -1.53933,-1.52273 -0.53667,0.25717 -1.31752,0.57682 -1.73522,0.71031 -0.45935,0.14681 -0.75944,0.6768 -0.75944,1.34126 0,1.02707 0.13939,1.09854 2.14256,1.09854 h 2.14256 z"
+       id="path1696"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 132.14351,572.93104 v -40.01731 h 2.16984 2.16985 v 37.88009 37.88009 l -2.16985,2.13722 -2.16984,2.13722 z"
+       id="path1735"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 132.14351,495.11781 v -35.54482 h 2.16984 2.16985 v 35.19791 c 0,32.3276 -0.0576,35.17581 -0.70596,34.92701 -0.38828,-0.149 -0.92531,-0.10046 -1.19341,0.10787 -0.26811,0.20833 -0.92685,0.48634 -1.46389,0.61781 l -0.97643,0.23904 z"
+       id="path1774"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 136.9169,582.80383 -2.7e-4,-25.37086 2.17011,0.15037 2.17012,0.15038 v 23.08327 23.08327 l -2.16985,2.13722 -2.16984,2.13721 z"
+       id="path1813"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="M 136.91717,530.24242 V 505.1251 l 2.16984,1.09954 2.16985,1.09955 v 23.427 23.42701 h -1.08493 c -0.5967,0 -1.08492,0.17252 -1.08492,0.38338 0,0.21086 -0.48821,0.4767 -1.08492,0.59077 l -1.08492,0.2074 z"
+       id="path1852"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 132.14351,649.796 c 0,-17.58297 0.0784,-31.88767 0.1742,-31.78822 0.0958,0.0994 4.39209,9.67772 9.54731,21.28504 l 9.37312,21.10422 v 10.684 10.684 h -9.54732 -9.54731 z m 10.76692,10.59607 c 0.12348,-1.49186 0.0422,-1.62738 -0.97642,-1.62738 -0.61112,0 -1.11112,0.19528 -1.11112,0.43397 0,0.23868 -0.48822,0.43397 -1.08493,0.43397 -0.84727,0 -1.08492,0.2218 -1.08492,1.01259 0,1.38937 0.25352,1.54817 2.32308,1.45514 1.74951,-0.0787 1.80338,-0.12622 1.93431,-1.70829 z"
+       id="path1891"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 146.56386,627.19248 -4.45729,-24.62676 0.009,-47.19411 c 0.005,-25.95676 0.13158,-47.19411 0.28126,-47.19411 0.14968,0 2.19914,1.02526 4.55436,2.27834 l 4.28222,2.27834 0.002,69.5435 c 0.001,38.24893 -0.0465,69.54307 -0.10618,69.54254 -0.0597,-4.4e-4 -2.11428,-11.08302 -4.56579,-24.62774 z m -0.6946,-67.02033 c -0.8862,-0.49595 -0.91928,-1.22029 -0.0557,-1.22029 0.35802,0 0.65095,-0.20961 0.65095,-0.46579 0,-0.7139 -1.36506,-0.28448 -1.90634,0.5997 -0.38345,0.62636 -0.31421,0.90838 0.34289,1.3965 0.45286,0.33639 1.01497,0.49322 1.24914,0.34849 0.24108,-0.14899 0.11922,-0.43469 -0.28091,-0.65861 z m 3.11397,-1.04408 c -0.0468,-1.24418 -0.21614,-1.47812 -1.07017,-1.47812 -0.6574,0 -1.03271,0.26738 -1.06603,0.75945 -0.0856,1.26387 0.11376,2.0462 0.5979,2.34667 0.91178,0.56588 1.59365,-0.15575 1.5383,-1.628 z"
+       id="path1930"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 152.11241,638.15117 c -0.009,-43.35056 -0.004,-43.61387 0.86023,-43.61387 0.47812,0 0.86931,-0.19528 0.86931,-0.43397 0,-0.23868 -0.2197,-0.38514 -0.48821,-0.32547 -0.26852,0.0597 -0.57772,-0.13562 -0.68712,-0.43397 -0.1094,-0.29836 0.1103,-0.54246 0.48821,-0.54246 0.37792,0 0.68712,-0.19529 0.68712,-0.43397 0,-0.23869 -0.39057,-0.43397 -0.86794,-0.43397 -0.86154,0 -0.86793,-0.28932 -0.86793,-39.27418 0,-21.6008 0.073,-39.27418 0.16232,-39.27418 0.0893,0 1.06291,0.50334 2.16362,1.11854 l 2.00129,1.11855 -0.002,37.72166 -0.002,37.72167 h -1.07644 c -0.59204,0 -1.07644,0.19529 -1.07644,0.43397 0,0.23868 0.2108,0.43397 0.46845,0.43397 0.29473,0 0.36241,0.48279 0.1825,1.30191 -0.36219,1.64905 0.42124,1.73283 1.0145,0.10849 0.29712,-0.8135 0.44678,13.07069 0.47013,43.61387 l 0.0343,44.80728 h -2.16213 -2.16213 z"
+       id="path1969"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 157.35895,622.85377 0.0453,-58.91127 4.26755,25.17019 4.26754,25.17019 0.0269,33.74108 0.0269,33.74108 h -4.33969 -4.33969 z m 3.4265,16.81629 c 0,-0.23868 -0.21969,-0.38515 -0.48821,-0.32548 -0.26852,0.0597 -0.57772,-0.13561 -0.68712,-0.43397 -0.1094,-0.29835 0.12858,-0.54246 0.52884,-0.54246 0.40026,0 0.82989,0.39058 0.95472,0.86794 0.33727,1.28974 1.78774,1.0964 2.13433,-0.2845 0.32957,-1.31313 -0.94423,-2.68932 -1.74658,-1.88697 -0.23958,0.23958 -0.89088,0.4356 -1.44734,0.4356 -1.08664,0 -1.66649,0.8976 -1.26155,1.95286 0.27616,0.71966 2.01291,0.90687 2.01291,0.21698 z"
+       id="path2008"
+       transform="scale(0.26458333)" />
+    <path
+       style="fill:#ff0000;stroke:#000003;stroke-width:0.16402"
+       d="m 157.3137,534.60118 v -18.71206 l 0.97643,0.62463 c 0.53704,0.34354 3.66161,2.05454 6.9435,3.80221 l 5.96707,3.17759 v 10.28324 10.28324 l -6.9435,4.6266 -6.9435,4.62661 z m 9.03105,-1.81153 c 0.12327,-1.47514 0.0405,-1.6118 -0.97643,-1.6118 -0.61111,0 -1.11112,0.16197 -1.11112,0.35994 0,0.19796 -0.43939,0.34442 -0.97643,0.32547 -0.71154,-0.0251 -1.01616,0.24655 -1.12289,1.00139 -0.18209,1.28783 0.3882,1.6588 2.44475,1.59032 1.52991,-0.0509 1.61393,-0.13125 1.74212,-1.66532 z"
+       id="path2047"
+       transform="scale(0.26458333)" />
+    <rect
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.53813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect558-7-4-6"
+       width="59.462002"
+       height="59.461868"
+       x="101.36735"
+       y="217.41341"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:#000001;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.47916,263.26042 10.58334,6.61458 36.14018,-7.8199 -11.00476,-23.9301 5.29166,-11.90625 -22.48958,9.26042 -9.26042,-11.90625 -5.29166,14.55208 9.26041,9.26042 15.54575,4.41252 z"
+       id="path7015-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"
+       sodipodi:nodetypes="ccccccccccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.34196,263.31551 -5.3e-4,13.47125"
+       id="path7477"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 119.0625,269.875 -0.007,6.89284"
+       id="path7479"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 108.34196,263.31551 0.009,-45.78719"
+       id="path7481"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 112.3125,262.28325 -0.007,-24.12671 -0.007,-20.77615"
+       id="path7917"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 117.70066,223.31326 -0.002,-5.8562"
+       id="path7919"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 121.6436,247.41077 0.0171,12.30746"
+       id="path8034"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 127.04152,235.35077 -0.007,-17.89113"
+       id="path8036"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 149.71412,226.00783 0.009,-8.43255"
+       id="path8038"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 155.19252,276.7045 0.0124,-14.67887 -0.0165,-44.55699"
+       id="path8040"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 149.71412,226.00783 -0.002,26.42904"
+       id="path1090"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663" />
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="103.40392"
+       y="246.923"
+       id="text5080"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078"
+         style="stroke-width:0.264583"
+         x="103.40392"
+         y="246.923">c1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="111.79666"
+       y="272.9845"
+       id="text5080-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-7"
+         style="stroke-width:0.264583"
+         x="111.79666"
+         y="272.9845">c3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="108.95531"
+       y="245.90729"
+       id="text5080-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8"
+         style="stroke-width:0.264583"
+         x="108.95531"
+         y="245.90729">c2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="115.07101"
+       y="251.85229"
+       id="text5080-2-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6"
+         style="stroke-width:0.264583"
+         x="115.07101"
+         y="251.85229">c5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="113.35122"
+       y="224.20338"
+       id="text5080-2-3-1"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2"
+         style="stroke-width:0.264583"
+         x="113.35122"
+         y="224.20338">c4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="120.82983"
+       y="224.18477"
+       id="text5080-2-3-1-9"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-3"
+         style="stroke-width:0.264583"
+         x="120.82983"
+         y="224.18477">c6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="125.06316"
+       y="253.55353"
+       id="text5080-2-3-1-1"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-9"
+         style="stroke-width:0.264583"
+         x="125.06316"
+         y="253.55353">c7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="135.6465"
+       y="271.67749"
+       id="text5080-2-3-1-4"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-7"
+         style="stroke-width:0.264583"
+         x="135.6465"
+         y="271.67749">c8</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="134.72046"
+       y="224.31706"
+       id="text5080-2-3-1-8"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-4"
+         style="stroke-width:0.264583"
+         x="134.72046"
+         y="224.31706">c9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="144.49631"
+       y="239.0141"
+       id="text5080-2-3-1-5"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-0"
+         style="stroke-width:0.264583"
+         x="144.49631"
+         y="239.0141">c10</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="149.81613"
+       y="232.82088"
+       id="text5080-2-3-1-3"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-6"
+         style="stroke-width:0.264583"
+         x="149.81613"
+         y="232.82088">c11</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:2.82223px;line-height:0.95;font-family:sans-serif;stroke-width:0.264583"
+       x="155.49025"
+       y="248.65872"
+       id="text5080-2-3-1-10"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/trap_decomp_cells_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"><tspan
+         sodipodi:role="line"
+         id="tspan5078-8-6-2-63"
+         style="stroke-width:0.264583"
+         x="155.49025"
+         y="248.65872">c12</tspan></text>
+    <path
+       style="fill:#000001;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 42.640676,262.95955 10.58334,6.61458 36.140175,-7.8199 -11.00476,-23.9301 5.29166,-11.90625 -22.489575,9.26042 -9.26042,-11.90625 -5.29166,14.55208 9.26041,9.26042 15.54575,4.41252 z"
+       id="path7015-4-2"
+       inkscape:export-filename="/home/jpmpl/jpmpl/FormalStudies/UFMG/Masters/Semester2/PlanejamentoDeMovimentos/Trabalho2/planej_de_movimento_trabalho_02/catkin_ws/src/trap_decomp/worlds/td_world_2.png"
+       inkscape:export-xdpi="846.66663"
+       inkscape:export-ydpi="846.66663"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
