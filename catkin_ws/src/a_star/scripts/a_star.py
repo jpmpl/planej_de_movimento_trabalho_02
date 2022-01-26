@@ -21,7 +21,6 @@ from scipy.signal import argrelextrema, find_peaks, peak_prominences
 import matplotlib.pyplot as plt
 
 #OPENCV
-import csv
 import cv2 as cv
 
 q0 = None
