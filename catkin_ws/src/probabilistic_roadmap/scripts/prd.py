@@ -21,7 +21,6 @@ from scipy.signal import argrelextrema, find_peaks, peak_prominences
 import matplotlib.pyplot as plt
 
 #OPENCV
-import csv
 import cv2 as cv
 
 
@@ -193,7 +192,6 @@ def init():
     rospy.init_node('prd', anonymous=True)
     pub = rospy.Publisher('/cmd_vel', Twist, queue_size=1)
     rospy.Subscriber('/odom', Odometry, odometry_callback_robot)
-    rospy.Subscriber('/base_scan', LaserScan, range_callback_robot)
     rate = rospy.Rate(20)
     vel_msg = Twist()
 
