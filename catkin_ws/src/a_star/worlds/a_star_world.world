@@ -37,7 +37,7 @@ interval_sim 100
 
 window
 (
-    size [ 700 700 ]
+    size [ 900 900 ]
     rotate [ 0.000 0.000 ]
     scale 10.000
 

@@ -28,6 +28,8 @@ import pandas as pd
 #OPENCV
 import cv2 as cv
 
+import csv
+
 #SHAPELY
 from shapely.geometry import Point
 from shapely.geometry.polygon import Polygon
@@ -534,6 +536,18 @@ def init():
             cur_cell = cell
             break
 
+    
+    with open('data_td_trap.csv','w', newline='') as csvfile:
+        fieldnames = ['cell','v0_x','v0_y','v1_x','v1_y','v2_x','v2_y','v3_x','v3_y']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for key,cell in cells.items():
+            writer.writerow({'cell':key,'v0_x':cell.trap_points[0][0],\
+            'v0_y':cell.trap_points[0][1],'v1_x':cell.trap_points[1][0],\
+            'v1_y':cell.trap_points[1][1],'v2_x':cell.trap_points[2][0],\
+            'v2_y':cell.trap_points[2][1],'v3_x':cell.trap_points[3][0],\
+            'v3_y':cell.trap_points[3][1]})
+
     alp = 0.2
     is_go_to_base = True
     is_vertical_movement = False
@@ -549,32 +563,52 @@ def init():
     next_cell_target = None
     obs_lim_start = None
     obs_lim_end = None
-    while not rospy.is_shutdown():
-        if lrange is not None:
-            cur_cell,V_dir,is_go_to_base,is_vertical_movement,is_tangent_movement,\
-                is_up,is_down,start_tangent,end_x_target,is_last_lap,\
-                start_target,is_go_to_next_cell,next_cell_key,\
-                next_cell_target,obs_lim_start,obs_lim_end = \
-                coverage(lrange.copy(),cells,cur_cell,q0,is_go_to_base,is_vertical_movement,\
-                    is_tangent_movement,is_up,is_down,start_tangent,end_x_target,is_last_lap,\
+
+    with open('data_td.csv','w', newline='') as csvfile:
+        fieldnames = ['time','x','y','theta','Vx','Vy','Vlin','Vang','cur_cell',\
+            'is_go_to_base','is_tangent_movement','is_vertical_movement','is_up','is_down',\
+            'is_go_to_next_cell']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+
+        while not rospy.is_shutdown():
+            if lrange is not None:
+                cur_cell,V_dir,is_go_to_base,is_vertical_movement,is_tangent_movement,\
+                    is_up,is_down,start_tangent,end_x_target,is_last_lap,\
                     start_target,is_go_to_next_cell,next_cell_key,\
-                    next_cell_target,obs_lim_start,obs_lim_end)
+                    next_cell_target,obs_lim_start,obs_lim_end = \
+                    coverage(lrange.copy(),cells,cur_cell,q0,is_go_to_base,is_vertical_movement,\
+                        is_tangent_movement,is_up,is_down,start_tangent,end_x_target,is_last_lap,\
+                        start_target,is_go_to_next_cell,next_cell_key,\
+                        next_cell_target,obs_lim_start,obs_lim_end)
 
-            if V_dir is not None:    
-                V = alp*V_dir
-                if is_vertical_movement and (is_up or is_down):
-                    V = 7*V
-                        
-            # Omnidirectional robot
-            vel_msg.linear.x = V[0]
-            vel_msg.linear.y = V[1]
-            
-            # Diff robot
-            #vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
-            #vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
+                if V_dir is not None:    
+                    V = alp*V_dir
+                    if is_vertical_movement and (is_up or is_down):
+                        V = 7*V
+                            
+                # Omnidirectional robot
+                vel_msg.linear.x = V[0]
+                vel_msg.linear.y = V[1]
+                
+                # Diff robot
+                #vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
+                #vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
+                cc_key = None
+                for key,cell in cells.items():
+                    if cell.polygon.contains(Point(q0[0],q0[1])):
+                        cc_key = key
+                        break
 
-            rate.sleep()
-            pub.publish(vel_msg)
+                writer.writerow({'time':rospy.Time.now(),'x':q0[0],'y':q0[1],\
+                    'theta':theta,'Vx':V[0],'Vy':V[1],'Vlin':vel_msg.linear.x,\
+                    'Vang':vel_msg.angular.z,'cur_cell':cc_key,\
+                    'is_go_to_base':is_go_to_base,'is_tangent_movement':is_tangent_movement,\
+                    'is_vertical_movement':is_vertical_movement,'is_up':is_up,'is_down':is_down,\
+                    'is_go_to_next_cell':is_go_to_next_cell})
+
+                rate.sleep()
+                pub.publish(vel_msg)
     
 if __name__ == '__main__':
     try:

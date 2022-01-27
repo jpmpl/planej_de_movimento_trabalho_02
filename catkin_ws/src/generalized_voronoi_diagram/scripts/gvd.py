@@ -25,6 +25,8 @@ import matplotlib.pyplot as plt
 from findpeaks import findpeaks
 import pandas as pd
 
+import csv
+
 tangent_move = False
 q0 = None
 qf = None
@@ -275,6 +277,15 @@ def init():
             
             df = df.append({'q0_x':q0[0],'q0_y':q0[1],'v_x':V_dir[0],'v_y':V_dir[1],'v_angle':np.arctan2(V_dir[1],V_dir[0]),\
                 'isVertice': isVertice,'isD1':isD1,'isGVD':tangent_move}, ignore_index=True)
+
+            if len(vertice_list) > 0:
+                is_all_explored = True
+                for vertice in vertice_list:
+                    if len(vertice.unexplored_directions()) > 0:
+                        is_all_explored = False
+                if is_all_explored:
+                    df.to_csv('data_gvd.csv')
+                    break
             
             # Omnidirectional robot
             vel_msg.linear.x = V[0]

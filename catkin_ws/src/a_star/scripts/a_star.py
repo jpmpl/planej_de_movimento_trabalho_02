@@ -22,6 +22,7 @@ import matplotlib.pyplot as plt
 
 #OPENCV
 import cv2 as cv
+import csv
 
 q0 = None
 qf = None
@@ -86,7 +87,7 @@ def init():
     vel_msg = Twist()
 
     if sys.version_info.major == 2:
-        qfx, qfy = raw_input('Digite as coordenadas do alvo (x,y): ').split()
+        qfx, qfy = raw_input('Digite as coordenadas do alvo (x,y): ').split() # 35 35
     elif sys.version_info.major == 3:
         qfx, qfy = input('Digite as coordenadas do alvo (x,y): ').split()
     
@@ -171,51 +172,55 @@ def init():
         c_cell = came_from[c_cell]
         backtrace.append(c_cell)
 
-    # with open('data_wf_grid_25_13.csv','w', newline='') as csvfile:
-    #     fieldnames = ['row','col','x','y','size','isStart','isGoal','isFree','value']
-    #     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    #     writer.writeheader()
-    #     for j in range(0,grid.shape[0]):
-    #         for i in range(0,grid.shape[1]):
-    #             writer.writerow({'row':j,'col':i,'x':grid[j,i].x,'y':grid[j,i].y,\
-    #                 'size':GRID_SIZE_R,'isStart':grid[j,i].isStart,'isGoal':grid[j,i].isGoal,\
-    #                 'isFree':grid[j,i].isFree,'value': grid[j,i].value})
+    with open('data_a_star_35_35_grid.csv','w', newline='') as csvfile:
+        fieldnames = ['row','col','x','y','size','order']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for j in range(0,grid.shape[0]):
+            for i in range(0,grid.shape[1]):
+                backtrace_number = None
+                for m in range(0,len(backtrace)):
+                    if backtrace[m].row == j and backtrace[m].col == i:
+                        backtrace_number = m
+                writer.writerow({'row':j,'col':i,'x':rng_x[i],'y':rng_y[j],\
+                    'size':GRID_SIZE_R,'order':backtrace_number})
 
     ep = 0.005
     alp = 0.5
     
-    # with open('data_wf_25_13.csv','w', newline='') as csvfile:
-    #     fieldnames = ['time','x','y','theta','Vx','Vy','Vlin','Vang',\
-    #         'grad_atr_pot_x','grad_atr_pot_y','targ_cell_row','targ_cell_col']
-    #     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    #     writer.writeheader()
-    cur_target = backtrace.pop()
-    cur_qf = np.array([rng_x[cur_target.col]+GRID_SIZE_R/2, rng_y[cur_target.row]-GRID_SIZE_R/2])
-    while not rospy.is_shutdown() and np.linalg.norm(q0-qf) > ep:
-        if q0 is not None and qf is not None and theta is not None:
-            if len(backtrace) > 0 and np.linalg.norm(q0-cur_qf) < 0.1:
-                cur_target = backtrace.pop()
-                cur_qf = np.array([rng_x[cur_target.col]+GRID_SIZE_R/2, rng_y[cur_target.row]-GRID_SIZE_R/2])
-                        
-            d_atr_pot = attraction_potential(cur_qf)
-            d_pot = d_atr_pot
-            V = - alp*(d_pot)
+    with open('data_a_star_35_35.csv','w', newline='') as csvfile:
+        fieldnames = ['time','x','y','theta','Vx','Vy','Vlin','Vang',\
+            'grad_atr_pot_x','grad_atr_pot_y','targ_cell_row','targ_cell_col']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        cur_target = backtrace.pop()
+        cur_qf = np.array([rng_x[cur_target.col]+GRID_SIZE_R/2, rng_y[cur_target.row]-GRID_SIZE_R/2])
+        while not rospy.is_shutdown() and np.linalg.norm(q0-qf) > ep:
+            if q0 is not None and qf is not None and theta is not None:
+                if len(backtrace) > 0 and np.linalg.norm(q0-cur_qf) < 0.1:
+                    cur_target = backtrace.pop()
+                    cur_qf = np.array([rng_x[cur_target.col]+GRID_SIZE_R/2, rng_y[cur_target.row]-GRID_SIZE_R/2])
+                            
+                d_atr_pot = attraction_potential(cur_qf)
+                d_pot = d_atr_pot
+                V = - alp*(d_pot)
+                    
+                # Omnidirectional robot
+                #vel_msg.linear.x = V[0]
+                #vel_msg.linear.y = V[1]
                 
-            # Omnidirectional robot
-            #vel_msg.linear.x = V[0]
-            #vel_msg.linear.y = V[1]
-            
-            # Diff robot
-            vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
-            vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
+                 # Diff robot
+                vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
+                vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
 
-            # writer.writerow({'time':rospy.Time.now(),'x':q0[0],'y':q0[1],\
-            #     'theta':theta,'Vx':V[0],'Vy':V[1],'Vlin':vel_msg.linear.x,\
-            #     'Vang':vel_msg.angular.z,'grad_atr_pot_x':d_atr_pot[0],\
-            #     'grad_atr_pot_y':d_atr_pot[1],'targ_cell_row':idx[0],'targ_cell_col':idx[1]})
+                writer.writerow({'time':rospy.Time.now(),'x':q0[0],'y':q0[1],\
+                    'theta':theta,'Vx':V[0],'Vy':V[1],'Vlin':vel_msg.linear.x,\
+                    'Vang':vel_msg.angular.z,'grad_atr_pot_x':d_atr_pot[0],\
+                    'grad_atr_pot_y':d_atr_pot[1],'targ_cell_row':cur_target.row,'targ_cell_col':cur_target.col})
 
-            rate.sleep()
-            pub.publish(vel_msg)
+                rate.sleep()
+                pub.publish(vel_msg)
     
 if __name__ == '__main__':
     try:

@@ -23,6 +23,7 @@ import matplotlib.pyplot as plt
 #OPENCV
 import cv2 as cv
 
+import csv
 
 q0 = None
 qf = None
@@ -213,7 +214,7 @@ def init():
             is_goal_valid = True
 
     n_samples = 200
-    n_neighb = 5
+    n_neighb = 7
     vertices,edges = construct_prm(wrd, n_samples, n_neighb)
 
     while q0 is None:
@@ -258,27 +259,50 @@ def init():
         idx_c = came_from[idx_c]
         backtrace.append(vertices[idx_c])
 
+    with open('data_prd_vertices_and_edges.csv','w', newline='') as csvfile:
+        fieldnames = ['idx','v0_x','v0_y','v1_x','v1_y','order']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for i in range(0,len(vertices)):
+            backtrace_number = None
+            for m in range(0,len(backtrace)):
+                if backtrace[m][0] == vertices[i][0] \
+                    and backtrace[m][1] == vertices[i][1]:
+                    backtrace_number = m
+            for e in edges[i]:
+                writer.writerow({'idx':i,'v0_x':vertices[i][0],'v0_y':vertices[i][1],\
+                    'v1_x':vertices[e][0],'v1_y':vertices[e][1],'order':backtrace_number})
+
     ep = 0.005
     alp = 0.1
     cur_target = backtrace.pop()
-    while not rospy.is_shutdown() and np.linalg.norm(q0-qf) > ep:
-        if len(backtrace) > 0 and np.linalg.norm(q0-cur_target) < 0.5:
-            cur_target = backtrace.pop()
+    
+    with open('data_prd_27_27.csv','w', newline='') as csvfile:
+        fieldnames = ['time','x','y','theta','Vx','Vy','Vlin','Vang','targ_x','targ_y']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        
+        while not rospy.is_shutdown() and np.linalg.norm(q0-qf) > ep:
+            if len(backtrace) > 0 and np.linalg.norm(q0-cur_target) < 0.5:
+                cur_target = backtrace.pop()
 
-        d_atr_pot = attraction_potential(cur_target)
-        d_pot = d_atr_pot
-        V = - alp*(d_pot)
+            d_atr_pot = attraction_potential(cur_target)
+            d_pot = d_atr_pot
+            V = - alp*(d_pot)
 
-        # Omnidirectional robot
-        vel_msg.linear.x = V[0]
-        vel_msg.linear.y = V[1]
+            # Omnidirectional robot
+            vel_msg.linear.x = V[0]
+            vel_msg.linear.y = V[1]
 
-        # Diff robot
-        #vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
-        #vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
+            # Diff robot
+            #vel_msg.linear.x = cos(theta)*V[0]+sin(theta)*V[1]
+            #vel_msg.angular.z = (-sin(theta)*V[0]+cos(theta)*V[1])/d
+            writer.writerow({'time':rospy.Time.now(),'x':q0[0],'y':q0[1],\
+                'theta':theta,'Vx':V[0],'Vy':V[1],'Vlin':vel_msg.linear.x,\
+                'Vang':vel_msg.angular.z,'targ_x':cur_target[0],'targ_y':cur_target[1]})
 
-        rate.sleep()
-        pub.publish(vel_msg)
+            rate.sleep()
+            pub.publish(vel_msg)
 
 if __name__ == '__main__':
     try:
